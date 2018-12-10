@@ -134,9 +134,6 @@ void loop(void)
   else {
   Serial.print("idle    ");
   }
-
-  int yelVal = 0;
-  int magVal = 0;
   
   if (lastMoveTime + 500 < millis()){
     
